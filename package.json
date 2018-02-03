@@ -1,0 +1,25 @@
+{
+  "name": "misha-sayenko-md",
+  "version": "1.0.0",
+  "description": "Portfolio site for mah boi, MD Sayenko",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd client && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsklyar/Misha-Sayenko-MD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsklyar/Misha-Sayenko-MD/issues"
+  },
+  "homepage": "https://github.com/dsklyar/Misha-Sayenko-MD#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
